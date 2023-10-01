@@ -29,7 +29,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>GitHub for this website</Link>
+            <Link to='https://github.com/charity-g/my-app-website23'>GitHub for this website</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
