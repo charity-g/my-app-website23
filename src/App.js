@@ -9,14 +9,14 @@ import About from './Components/pages/About';
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter basename="/my-app-website23 >
      <Navbar/>
      <Routes>
        <Route path='/' element={<Home/>}/>
        <Route path='/Projects' element={<Projects/>}/>
        <Route path='/About' element={<About/>}/>
      </Routes>
-    </Router>
+    </HashRouter>
     </>
   );
 }

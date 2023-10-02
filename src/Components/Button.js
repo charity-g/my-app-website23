@@ -19,7 +19,7 @@ export const Button = ({
     ? buttonSize : SIZES[0];
 
     return (
-        <a href={path} className='btn-mobile'>
+        <a href={"my-app-website/"+{path}} className='btn-mobile'>
             <button
               className={`btn ${checkButtonStyle} ${checkButtonSize}`}
               type={type}>
