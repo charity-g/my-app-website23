@@ -9,7 +9,7 @@ import About from './Components/pages/About';
 function App() {
   return (
     <>
-    <HashRouter basename="/my-app-website23 >
+    <HashRouter basename="/my-app-website23" >
      <Navbar/>
      <Routes>
        <Route path='/' element={<Home/>}/>
@@ -17,6 +17,7 @@ function App() {
        <Route path='/About' element={<About/>}/>
      </Routes>
     </HashRouter>
+    <Footer/>
     </>
   );
 }
