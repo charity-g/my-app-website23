@@ -1,4 +1,5 @@
 import './Button.css';
+import { Link } from 'react-router-dom';
 import React from 'react';
 
 const STYLES = ['btn--primary', 'btn--outline'];
@@ -9,6 +10,7 @@ export const Button = ({
     children,
     type,
     path,
+    onClick,
     buttonStyle,
     buttonSize
   }) => {
@@ -19,12 +21,14 @@ export const Button = ({
     ? buttonSize : SIZES[0];
 
     return (
-        <a href={"my-app-website/"+{path}} className='btn-mobile'>
-            <button
-              className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-              type={type}>
-                {children}
-            </button>
-        </a>
+      <Link to={"my-app-website/"+{path}} className='btn-mobile'>
+        <button
+          className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+          onClick={onClick}
+          type={type}
+          >
+          {children}
+        </button>
+      </Link>
     )
   }

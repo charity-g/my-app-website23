@@ -1,9 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import './Navbar.css';
 import { Button } from './Button';
-import { useEffect } from 'react';
-
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,13 +35,19 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu-active':'nav-menu'}>
                 <li className='nav-item'>
-                    <a href='/' className='nav-links' onclick={closeMobileMenu}>Home</a>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        Home
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='/projects' className='nav-links' onclick={closeMobileMenu}>Projects</a>
+                    <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                        Projects
+                    </Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='/about' className='nav-links-mobile' onclick={closeMobileMenu}>About</a>
+                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                        About
+                    </Link>
                 </li>
             </ul>
             {button && <Button style='btn--outline' path='/surprise'>SURPRISE ME</Button>}
