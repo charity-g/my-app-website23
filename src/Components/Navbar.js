@@ -27,9 +27,9 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <a href='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Portfoilio 2023 &nbsp;<i class="fa-solid fa-cloud-showers-heavy"/>
-            </a>
+            </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>

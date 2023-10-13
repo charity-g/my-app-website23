@@ -3,9 +3,10 @@ import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
+    
     return (
         <div className='hero-container'>
-            <video src='/videos/bird.mp4' autoPlay loop muted non-repeat ></video>
+        <iframe src="https://www.youtube.com/embed/NviS7xPGOxc?si=RdtuFugIfkNvD2FG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div className='hero-text'>
             <p>Hi! My name is Charity.</p>
             <div className='hero-btns'>
