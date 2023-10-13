@@ -1,0 +1,23 @@
+.description {
+   padding: 4rem 6rem 2rem 6rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.img_container {
+   display: flex;
+   justify-content: center;
+   max-width: 2000px;
+   width: 90%;
+   margin: 0 auto;
+ }
+ 
+.subtitle {
+   margin-top: 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+}
