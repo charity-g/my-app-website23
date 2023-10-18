@@ -24,6 +24,9 @@ function Footer() {
             <Link 
             to='https://www.linkedin.com/in/charity-g'>LinkedIn  &nbsp;
             <i class='fab fa-linkedin' /></Link>
+            <Link 
+            to='https://github.com/charity-g'>LinkedIn  &nbsp;
+            <i class='fab fa-github' /></Link>
           </div>
         </div>
       </div>
