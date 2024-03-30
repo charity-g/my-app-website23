@@ -1,8 +1,11 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About 
 
-## Available Scripts
+This is the 2023-2024 Personal Portfolio website for Charity Grey [charity-g](https://github.com/charity-g), made with React, Javascript, HTML, CSS, and deployed via GitHub.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). See below for details of running locally.
+
+## Available Scripts for React App
 
 In the project directory, you can run:
 
@@ -71,5 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 References:
-- forked from: 
-- routing issues: 
+- forked from: [briancodex](https://github.com/briancodex/react-website-v1/tree/starter) 
