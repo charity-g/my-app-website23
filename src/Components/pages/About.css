@@ -1,4 +1,5 @@
 .description {
+   color: #fffeee;
    padding: 4rem 6rem 0 6rem;
    display: flex;
    flex-direction: column;
@@ -6,11 +7,9 @@
    align-items: center;
 }
 
-.img_container {
+img {
    display: flex;
    justify-content: center;
-   max-width: 2000px;
-   width: 90%;
    margin: 0 auto;
  }
  
