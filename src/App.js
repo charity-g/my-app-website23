@@ -5,6 +5,8 @@ import Navbar from './Components/Navbar';
 import Home from './Components/pages/Home';
 import Projects from './Components/pages/Projects';
 import About from './Components/pages/About';
+// <Route path='/my-app-website23/About' element={<About/>}/>
+//<Route path='/About' element={<About/>}/>
 import Footer from './Components/Footer.js'
 
 function App() {
@@ -14,10 +16,8 @@ function App() {
      <Routes>
        <Route path='/' element={<Home/>}/>
        <Route path='/Projects' element={<Projects/>}/>
-       <Route path='/About' element={<About/>}/>
        <Route path='/my-app-website23' element={<Home/>}/>
        <Route path='/my-app-website23/Projects' element={<Projects/>}/>
-       <Route path='/my-app-website23/About' element={<About/>}/>
      </Routes>
      <Footer/>
     </>

@@ -12,9 +12,9 @@ function HeroSection() {
         <div className='hero-text'>
             <p>Hi! My name is Charity.</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--' path='/about'>ABOUT ME</Button>
-                <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--' path='/projects'>MY PROJECTS</Button>
+                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--' path='/projects'>MY PROJECTS</Button>
             </div>
+            <p id="Education">Computer Science and Biology @ UBC.</p>
             </div>
         </div>
     )
@@ -24,4 +24,4 @@ export default HeroSection;
 
 // <img src='/images/test.png' alt="no image D:"/>
 // <iframe src="https://www.youtube.com/embed/NviS7xPGOxc?si=RdtuFugIfkNvD2FG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        
+// <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--' path='/about'>ABOUT ME</Button>

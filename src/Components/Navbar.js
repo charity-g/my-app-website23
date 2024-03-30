@@ -4,6 +4,15 @@ import React from 'react';
 import './Navbar.css';
 import { Button } from './Button';
 
+/*
+<li className='nav-item'>
+                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                        About
+                    </Link>
+                </li>
+*/
+
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -44,11 +53,6 @@ function Navbar() {
                         Projects
                     </Link>
                 </li>
-                <li className='nav-item'>
-                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                        About
-                    </Link>
-                </li>
             </ul>
             {button && <Button style='btn--outline' path='/surprise'>SURPRISE ME</Button>}
         </div>
@@ -58,3 +62,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
