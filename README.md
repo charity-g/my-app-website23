@@ -1,7 +1,9 @@
 
 # About 
 
-This is the 2023-2024 Personal Portfolio website for Charity Grey [charity-g](https://github.com/charity-g), made with React, Javascript, HTML, CSS, and deployed via GitHub.
+This is the 2023-2024 Personal Portfolio website for Charity Grey [charity-g](https://github.com/charity-g), made with React, Javascript, HTML, CSS.
+
+Currently, this project is live and hosted by GitHub at this [site](https://charity-g.github.io/my-app-website23/#/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). See below for details of running locally.
 

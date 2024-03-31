@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app-website23/static/css/main.44ecdcd8.css",
-    "main.js": "/my-app-website23/static/js/main.f0f13553.js",
+    "main.css": "/my-app-website23/static/css/main.f7577e45.css",
+    "main.js": "/my-app-website23/static/js/main.c1b38486.js",
     "static/js/787.9c58b6f0.chunk.js": "/my-app-website23/static/js/787.9c58b6f0.chunk.js",
+    "static/media/surprise1.mp4": "/my-app-website23/static/media/surprise1.efc6a77e81313062a3a2.mp4",
+    "static/media/IMG_Charity.JPG": "/my-app-website23/static/media/IMG_Charity.f897d6760238d56d3505.JPG",
+    "static/media/2023_hero_image.png": "/my-app-website23/static/media/2023_hero_image.927cba18e1ebcdeae335.png",
     "index.html": "/my-app-website23/index.html",
-    "main.44ecdcd8.css.map": "/my-app-website23/static/css/main.44ecdcd8.css.map",
-    "main.f0f13553.js.map": "/my-app-website23/static/js/main.f0f13553.js.map",
+    "main.f7577e45.css.map": "/my-app-website23/static/css/main.f7577e45.css.map",
+    "main.c1b38486.js.map": "/my-app-website23/static/js/main.c1b38486.js.map",
     "787.9c58b6f0.chunk.js.map": "/my-app-website23/static/js/787.9c58b6f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44ecdcd8.css",
-    "static/js/main.f0f13553.js"
+    "static/css/main.f7577e45.css",
+    "static/js/main.c1b38486.js"
   ]
 }
