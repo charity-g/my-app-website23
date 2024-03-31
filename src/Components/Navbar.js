@@ -37,7 +37,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Portfoilio 2023 &nbsp;<i class="fa-solid fa-cloud-showers-heavy"/>
+            Portfoilio 2024 &nbsp;<i class="fa-solid fa-cloud-showers-heavy"/>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -49,12 +49,15 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/Projects' className='nav-links' onClick={closeMobileMenu}>
                         Projects
                     </Link>
                 </li>
+                <li> <Link to='/Surprise' className='nav-links' id='surprise' onClick={closeMobileMenu}>
+                        Surprise Me
+                    </Link>
+                </li>
             </ul>
-            {button && <Button style='btn--outline' path='/surprise'>SURPRISE ME</Button>}
         </div>
     </nav>
     </>
