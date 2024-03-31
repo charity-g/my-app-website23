@@ -14,8 +14,14 @@ function HeroSection() {
             <div className='hero-btns'>
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--' path='/projects'>MY PROJECTS</Button>
             </div>
-            <p id="Education">Computer Science and Biology @ UBC.</p>
+            <div className='hero-description'>
+                <p>Computer Science and Biology @ UBC.</p>
+                <p id='paragraph'>I love problem-solving in very diverse areas-
+                 medical technology, bioinformatics, as well as all things related to managing data-
+                  databases, data collection, data processing + cleaning and data visualization/analysis.
+                </p>
             </div>
+        </div>
         </div>
     )
 }

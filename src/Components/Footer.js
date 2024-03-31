@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -8,14 +7,14 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Thank you for checking out my website!
+        Thank you for checking out my website! 
         </p>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About This Site</h2>
-            <Link to='https://github.com/charity-g/my-app-website23'>GitHub for this website</Link>
+            <Link to='https://github.com/charity-g/my-app-website23'>GitHub for this website  <i class='fab fa-github' /></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -25,7 +24,7 @@ function Footer() {
             to='https://www.linkedin.com/in/charity-g'>LinkedIn  &nbsp;
             <i class='fab fa-linkedin' /></Link>
             <Link 
-            to='https://github.com/charity-g'>LinkedIn  &nbsp;
+            to='https://github.com/charity-g'>GitHub  &nbsp;
             <i class='fab fa-github' /></Link>
           </div>
         </div>
