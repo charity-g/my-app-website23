@@ -12,8 +12,7 @@ function Surprise() {
       <video width="320" height="240" autoPlay={true} muted>
             <source src={video_path} type="video/mp4"/>
             Your browser does not support the video tag.
-      </video> 
-      <p>You got Rick Rolled!</p>
+      </video>
 
       </div>
       </>

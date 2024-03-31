@@ -15,7 +15,7 @@ function HeroSection() {
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--' path='/projects'>MY PROJECTS</Button>
             </div>
             <div className='hero-description'>
-                <p>Computer Science and Biology @ UBC.</p>
+                <p id = 'education'>Computer Science and Biology @ UBC.</p>
                 <p id='paragraph'>I love problem-solving in very diverse areas-
                  medical technology, bioinformatics, as well as all things related to managing data-
                   databases, data collection, data processing + cleaning and data visualization/analysis.
