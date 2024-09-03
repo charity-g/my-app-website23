@@ -76,4 +76,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 References:
-- forked from: [briancodex](https://github.com/briancodex/react-website-v1/tree/starter) 
+- forked from: [briancodex](https://github.com/briancodex/react-website-v1/tree/starter)
+
+QuickLinks:
+
+https://github.com/charity-g/my-app-website23/blob/main/
+https://charity-g.github.io/my-app-website23/
+https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
+updating deployment:
+https://github.com/orgs/community/discussions/22825 —- https://stackoverflow.com/questions/57116394/deploying-react-app-on-github-deploys-new-app-and-my-files-are-missing
+https://maximorlov.com/deploying-to-github-pages-dont-forget-to-fix-your-links/
+failed deployment:
+https://github.com/orgs/community/discussions/35197
+https://github.com/charity-g/my-app-website23/actions/runs/6504935980/job/17667677153
+
